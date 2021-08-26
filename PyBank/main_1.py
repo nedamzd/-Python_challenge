@@ -23,9 +23,9 @@ with open(csv_path, 'r') as csv_file:
         next_row=int(row[1])
 
         change=next_row-row_dummy
-        #print(change)
+     
         row_dummy=int(row[1])
-        #print(row_dummy)
+       
 
         PL_diff.append(change)
     PL_col_total= sum(PL_col)
